@@ -1,0 +1,14 @@
+# wprdcstats-js:
+#   filter: rjsmin
+#   output: ckanext-wprdcstats/%(version)s-wprdcstats.js
+#   contents:
+#     - js/wprdcstats.js
+#   extra:
+#     preload:
+#       - base/main
+
+# wprdcstats-css:
+#   filter: cssrewrite
+#   output: ckanext-wprdcstats/%(version)s-wprdcstats.css
+#   contents:
+#     - css/wprdcstats.css
